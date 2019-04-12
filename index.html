@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+
+<head>
+    <title> Jogo da velha </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <script language="JavaScript" src="_javascript/jogo_velha.js"></script>
+    <link rel="shortcut icon" href="_img/velha1.jpg" />
+
+</head>
+
+<body id="container">
+    <header>
+        <h1> Jogo da velha </h1>
+        <h2 id="mensagem" class="ganhador"></h2>
+        
+    </header>
+    <p id="mensagem" class="ganhador"></p>
+    <section>
+        <table id="jogo" class="jogo">
+            <tr class="linha">
+                <td class="casa" id="a1" onclick="colocar('a1', 0)"></td>
+                <td class="casa" id="a2" onclick="colocar('a2', 1)"></td>
+                <td class="casa" id="a3" onclick="colocar('a3', 2)"></td>
+            </tr>
+            <tr class="linha">  
+                <td class="casa" id="b1" onclick="colocar('b1', 3)"></td>
+                <td class="casa" id="b2" onclick="colocar('b2', 4)"></td>
+                <td class="casa" id="b3" onclick="colocar('b3', 5)"></td>
+            </tr>
+            <tr class="linha">
+                <td class="casa" id="C1" onclick="colocar('C1', 6)"></td>
+                <td class="casa" id="C2" onclick="colocar('C2', 7)"></td>
+                <td class="casa" id="C3" onclick="colocar('C3', 8)"></td>
+            </tr>
+        </table>
+            <div id="velha">
+
+            </div>
+    </section>
+    <footer class="rodape">
+        <button class="botao" onclick="reniciar()"> Reiniciar </button> 
+    </footer>
+</body>
+
+
+
+
+
+
+</html>

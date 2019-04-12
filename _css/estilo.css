@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+header{
+    background-color:#424242;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color:#424242;
+}
+.rodape{
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+.botao{
+    background-color: chartreuse;
+    border: 0;
+    width: 60px;
+    height: 40px;
+    padding: 2px;
+}
+.botao:hover{
+    background-color: dimgrey;
+}   
+.jogo{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-right: none;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-right: none;
+}
+.casa{ 
+    border:solid 2px; 
+    float:left;
+}
+img{
+    width: 100%;
+   
+}
+.ganhador{
+    text-align: center;
+    color: white;
+    margin: 12px 0 ;
+    font-family: 'Bree Serif', serif;
+}
+@media (max-width: 400px) {
+   .casa{
+       width: 26vw;
+       height: 26vw;
+   }
+   .jogo{
+       width: 78vw;
+   }
+    
+}
+@media (min-width: 401px) and (max-width: 700px){
+    .casa{
+        width: 20vw;
+        height: 20vw;
+    }
+    .jogo{
+        width: 60vw;
+    }
+} 
+@media (min-width: 701px) and (max-width:800px){
+    .casa{
+        width: 18vw;
+        height: 18vw;
+    }
+    .jogo{
+        width: 54vw;
+    }
+}
+@media (min-width: 801px) and (max-width: 942px){
+    .casa{
+        width: 14vw;
+        height: 14vw;
+    }
+    .jogo{
+        width: 42vw;
+    }
+}
+@media (min-width: 943px) and (max-width: 1199px){
+    .casa{
+        width: 12vw;
+        height: 12vw;
+    }
+    .jogo{
+        width: 36vw;
+    }  
+}
+@media (min-width: 1200px){
+    .casa{
+        width: 9vw;
+        height: 9vw;
+    }
+    .jogo{
+        width: 27vw;
+    }
+}
